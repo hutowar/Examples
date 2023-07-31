@@ -1,14 +1,13 @@
 ﻿Console.Clear();
 
 string s = "x";
-/* int rnb;
-if (xa <= xb) rnb = xa;
-else rnb = xb;
-int rn1 = new Random().Next(rnb, 4); */
+Random rnd = new();
+int yb = rnd.Next(15, 46);
+int yc = rnd.Next(15, 46);
+int xc = rnd.Next(14, 150);
+int xa = rnd.Next(4, 150);
 
-int xa = 4, ya = 4,
-    xb = 4, yb = 25,
-    xc = 70, yc = 25;
+int ya = 4, xb = 4;
 
 Console.SetCursorPosition(xa, ya);
 Console.Write(s);
@@ -40,3 +39,4 @@ while (count < 1000) {
     Console.Write(s);
     count++;
 }
+    
