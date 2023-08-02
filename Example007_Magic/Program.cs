@@ -1,13 +1,12 @@
 ﻿Console.Clear();
+int ya = 4, xb = 4;
 
 string s = "x";
 Random rnd = new();
-int yb = rnd.Next(15, 46);
-int yc = rnd.Next(15, 46);
-int xc = rnd.Next(14, 150);
+int yb = rnd.Next(ya+8, 46);
+int yc = rnd.Next(ya+16, 46);
+int xc = rnd.Next(xb+20, 150);
 int xa = rnd.Next(4, 150);
-
-int ya = 4, xb = 4;
 
 Console.SetCursorPosition(xa, ya);
 Console.Write(s);
