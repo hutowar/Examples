@@ -2,7 +2,8 @@
 Console.Clear();
 Console.Write("Enter number: ");
 int number = int.Parse(Console.ReadLine()!);
-if (number %2 == 0){
+if (number %2 == 0)
+{
     Console.WriteLine("Number "+number+" are even");
 }
 else 

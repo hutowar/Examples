@@ -5,9 +5,7 @@ int number = int.Parse(Console.ReadLine()!);
 int count = 0;
 while (count < number)
 {
-    if(count %2 == 0)
-    {
-        Console.Write(count+" ");
-    }
-    count++;
+    count += 2;
+    if (count > number) break;
+    Console.Write(count+" ");
 }
