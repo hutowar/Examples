@@ -31,10 +31,11 @@ void FindMaxAndMinArray(double[] array)
             max = array[i];
         }
     }
-    Console.WriteLine($"min value: {min}, max value: {max}.");
+    Console.WriteLine($"Min value: {min}, max value: {max}.");
+    Console.WriteLine($"Number difference: {Math.Round(max - min, 2)}.");
 }
 
 double[] array = new double[10];
-FillArray(array, -100, 100);
+FillArray(array, -10, 10);
 PrintArray(array);
 FindMaxAndMinArray(array);
